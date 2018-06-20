@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+/*adding this to test repo*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: lightgray;
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+nav ul {
+    /*    float: right;*/
+    position: absolute;
+    right: 10px;
+    top: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+ul li {
+    /*    color: #fff;*/
+    text-decoration: none;
+}
+
+a {
+    color: rebeccapurple;
+}
+
+.wrapper {
+    margin-left: 60px;
+    padding-left: 20px;
+
+}
+
+.wrapper ul li {}
+
+.job-search-form input[type=text] {
+    height: 35px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.job-search-form .glass {
+    width: 40px;
+    height: 40px;
+    background: url('magnifying-glass.png');
+    border-radius: 3px;
+}
+
+ul .pagination {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    margin-top: 25px;
+
+}
+
+
+/*adding this to test repo delete when done*/
