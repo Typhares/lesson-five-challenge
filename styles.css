@@ -2,10 +2,15 @@
     box-sizing: border-box;
 }
 
-/*adding this to test repo
+/*
 fixes:
-line 70 'glass' is not showing
+line 70 'glass' is not showing or not styled correctly, make sure I understand diff btwn
+element and attribute, parent, child in form
+
+line 69 explain Cascade of rule syntax .job-search-form input[type=text]
+
 line 89-11 second child of pagination needs left and right boder 1px solid black
+
 
 */
 
@@ -62,6 +67,8 @@ a {
 
 .wrapper ul li {}
 
+/*get help with this*/
+
 .job-search-form input[type=text] {
     height: 35px;
     width: 300px;
@@ -82,9 +89,15 @@ a {
 ul.pagination {
     margin: 0;
     padding: 0;
-    margin-top: 15px;
+    font-size: 0;
+    /*    ?*/
+    margin-top: 25px;
 
 }
+
+/* as HTML code grows  be as specific as you are required */
+
+/*if classes start duplicate need to make CSS style rules more specific*/
 
 ul.pagination li {
     font-size: 16px;
@@ -95,16 +108,10 @@ ul.pagination li {
     border-bottom: 1px solid black;
 }
 
-/* this style rule is targeting the Prev li which is the first child of the pagination class*/
-
 /*target the second li add border right border left style to */
 
 ul.pagination li:first-child {
-    border-left: 1px solid black;
-}
-
-ul.pagination li:second-child {
-    border-left: 1px solid black;
+    /* this style rule is targeting the 'Prev' li which is the first child of the pagination class*/
     border-left: 1px solid black;
 }
 
